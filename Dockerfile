@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/jjstudy/flink-image:v2
+FROM airdock/oraclejdk:latest
 # Install dependencies
 RUN set -ex; \
   apt-get update; \
