@@ -1,4 +1,4 @@
-FROM gozap/oraclejdk8:latest
+FROM freshworks/oraclejdk8:latest
 # Install dependencies
 RUN set -ex; \
   apt-get update; \
