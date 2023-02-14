@@ -1,4 +1,4 @@
-FROM airdock/oraclejdk:latest
+FROM eclipse-temurin:8-jre-jammy
 # Install dependencies
 RUN set -ex; \
   apt-get update; \
