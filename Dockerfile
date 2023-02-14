@@ -1,4 +1,4 @@
-FROM freshworks/oraclejdk8:latest
+FROM spoud/oraclejdk:latest
 # Install dependencies
 RUN set -ex; \
   apt-get update; \
