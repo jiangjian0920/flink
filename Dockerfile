@@ -1,4 +1,4 @@
-FROM eclipse-temurin:8-jre-jammy
+FROM gozap/oraclejdk8:latest
 # Install dependencies
 RUN set -ex; \
   apt-get update; \
